@@ -8,3 +8,4 @@ print(months[5])
 
 list_of_random_things = [1, 3.5, 'a string', True]
 print(list_of_random_things[1])
+print(list_of_random_things[-2])
