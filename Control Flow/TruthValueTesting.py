@@ -1,13 +1,13 @@
-errors = 56
-if errors:
-    print("You have {} errors to fix!".format(errors))
+issues = 56
+if issues:
+    print("You have {} issues to fix!".format(issues))
 else:
-    print("No errors to fix!")
+    print("No issues to fix!")
 
-weather = "snow"
-if weather == "snow" or "rain":
-    print("Wear Boots!")    
+season = "summer"
+if season == "summer" or "autumn":
+    print("Wear loose cloths!")    
 
-weather = "rain"
-if weather == "snow" or "":
-    print("Wear Boots!")  
+season = "summer"
+if season == "summer" or "":
+    print("Wear loosefitting clothes !")  
