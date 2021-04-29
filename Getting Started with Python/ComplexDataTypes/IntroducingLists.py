@@ -1,15 +1,22 @@
-empty_list = []
-print(empty_list)
+cars_list = ['Tuv 300' , 'Xuv 500', 'Xuv 300', 'Xuv 700']
+print(cars_list)
+print(type(cars_list))
 
-list_str = ['Tuv 300' , 'Xuv 500', 'Xuv300', 'Xuv700']
-print(list_str)
-print(type(list_str))
+print(cars_list[0])
+print(cars_list[1])
+print(cars_list[2])
+print(cars_list[3])
 
-list_int = [5, 6, 7, 8, 34, 55]
-print(list_int)
+print(len(cars_list))
 
-list_float = [5.5, 34.6, 9.6, 6.56]
-print(list_float)
+print("car at index 2:", cars_list[2])
 
-list_bool = [True, False]
-print(list_bool)
+print(cars_list[-1])
+print(cars_list[-2])
+print(cars_list[-3])
+print(cars_list[-4])
+
+cars_list[3] = "KUV 100"
+print("New car at index 3 is:", cars_list[3])
+
+
