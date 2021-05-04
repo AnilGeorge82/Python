@@ -1,15 +1,24 @@
-empty_list = []
-print(empty_list)
 
-list_str = ['Tuv 300' , 'Xuv 500', 'Xuv300', 'Xuv700']
-print(list_str)
-print(type(list_str))
+cars_list = ['Tuv 300' , 'Xuv 500', 'Xuv300', 'Xuv700']
+print(cars_list)
+cars_list.append('Scorpio')
+print(cars_list)
 
-list_int = [5, 6, 7, 8, 34, 55]
-print(list_int)
+#append method takes only one argument or value and not more than that
+#cars_list.append('Bolero', 'Kuv 300')
+print(cars_list)
+cars_list.insert(5,'Bolero')
+print(cars_list)
+cars_list.insert(4,'Kuv 5')
+print(cars_list)
 
-list_float = [5.5, 34.6, 9.6, 6.56]
-print(list_float)
+cars_list.extend(['Marazzo', 'XUV 700'])
+print(cars_list)
 
-list_bool = [True, False]
-print(list_bool)
+cars_list2 = ['Hennessey Venom GT', 'Bugatti Veyron', 'Koenigsegg Agera R']
+complete_cars_list = cars_list + cars_list2
+print(complete_cars_list)
+
+print(complete_cars_list.index('Tuv 300'))
+complete_cars_list.remove('Bugatti Veyron')
+print(complete_cars_list)
