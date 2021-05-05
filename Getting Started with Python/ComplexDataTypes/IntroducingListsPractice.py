@@ -22,3 +22,4 @@ print(complete_cars_list)
 print(complete_cars_list.index('Tuv 300'))
 complete_cars_list.remove('Bugatti Veyron')
 print(complete_cars_list)
+
