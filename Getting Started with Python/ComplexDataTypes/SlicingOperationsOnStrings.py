@@ -1,0 +1,16 @@
+my_string = "Hello Python World"
+print(my_string[0:18])
+print(my_string[0:6])
+print(my_string[6:18])
+print(my_string[6:12])
+print(my_string[::2])
+print(my_string[0:18:1])
+print(my_string[0:18:2])
+print(my_string[18:0:-2])
+print(my_string[4::-1])
+print(my_string[::-1])
+
+some_string = my_string.split()
+print(some_string)
+print(my_string.upper())
+print(my_string.lower())
